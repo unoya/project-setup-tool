@@ -117,11 +117,11 @@ ivs
 因為這個範例裡我是定義用 ivs , 所以輸入這個指令即可執行.
 這時候你開啟檔案總管看一下目前的所在目錄, 在目錄裡會看到它自動產生這些東西:
 
-> .vscode 目錄
-> &nbsp;&nbsp;&nbsp;&nbsp;└ settings.json 檔案
-> .gitignore 檔案
-> LINCESE 檔案
-> README.md 檔案
+> .vscode 目錄  
+> &nbsp;&nbsp;&nbsp;&nbsp;└ settings.json 檔案  
+> .gitignore 檔案  
+> LINCESE 檔案  
+> README.md 檔案  
 > .markdownlint.json 檔案
 
 用這種方式來建立檔案的好處是"不需要記住哪些檔案被遺忘了", 只要好好保存package.json和init-vscode-settings.js檔案即可.
