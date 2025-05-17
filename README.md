@@ -83,17 +83,17 @@ npm -v
 
 在目前目錄下(D:\MyTools) 請自行新增一個檔案 init-vscode-settings.js , 內容填入自己想要做的事情, 此範例是我自己要用的, 所以我希望能做到以下的事情:
 
-- 建立一個 .vscode 目錄, 如果不存在就自動建立.
-- 在 .vscode 目錄下產生一個 settings.json 檔案, 並且自動填入我想要的內容.
-- 自動產生 .gitignore 檔案, 並且自動填入我想要的內容.
-- 自動產生 LINCESE 檔案, 並且自動填入我想要的內容.
-- 自動產生 README.md 檔案, 並且自動填入我想要的內容.
-- 自動產生 .markdownlint.json 檔案, 並且自動填入我想要的內容.
+  - 建立一個 .vscode 目錄, 如果不存在就自動建立.
+  - 在 .vscode 目錄下產生一個 settings.json 檔案, 並且自動填入我想要的內容.
+  - 自動產生 .gitignore 檔案, 並且自動填入我想要的內容.
+  - 自動產生 LINCESE 檔案, 並且自動填入我想要的內容.
+  - 自動產生 README.md 檔案, 並且自動填入我想要的內容.
+  - 自動產生 .markdownlint.json 檔案, 並且自動填入我想要的內容.
 
 所以, init-vscode-settings.js 檔案就是在設定我們想要做的事情, 通通都寫在這個檔案裡.
 當你製作好了之後, D:\MyTools 目錄下應該會有這兩個檔案:
 
-> package.json
+> package.json  
 > init-vscode-settings.js
 
 ## 將指令註冊到全域
@@ -114,7 +114,7 @@ npm link
 ivs
 ```
 
-因為這個範例裡我是定義用 ivs , 所以輸入這個指令即可執行.
+因為這個範例裡我是定義用 ivs , 所以輸入這個指令即可執行.  
 這時候你開啟檔案總管看一下目前的所在目錄, 在目錄裡會看到它自動產生這些東西:
 
 > .vscode 目錄  
@@ -124,5 +124,5 @@ ivs
 > README.md 檔案  
 > .markdownlint.json 檔案
 
-用這種方式來建立檔案的好處是"不需要記住哪些檔案被遺忘了", 只要好好保存package.json和init-vscode-settings.js檔案即可.
+用這種方式來建立檔案的好處是"不需要記住哪些檔案被遺忘了", 只要好好保存package.json和init-vscode-settings.js檔案即可.  
 日後在開新專案後, 只要在該目錄下執行一次 ivs 指令就能完成這些煩鎖的事情了.
